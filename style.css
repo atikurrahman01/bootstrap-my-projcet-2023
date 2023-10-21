@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+:root {
+
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+    --bs-supporting-color-2: #4834DF;
+    --bs-supporting-color-3: #192A56;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'lexend Deca', sans-serif;
+    color: var(--bs-dark-color);
+}
+
+h1 {
+
+    font-size: 3rem;
+    color: var(--bs-main-color);
+
+}
+
+h2 {
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+
+
+p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.07rem;
+    color: var(--bs-dark-color);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    color: var(--bs-primary-color);
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--bs-supporting-color-2);
+}
+
+li {
+    list-style: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////hero section ///////////////////////*/
+
+.main-body-container {
+    background-color: var(--bs-dark-primary);
+}
+
+.main-container1 {
+    background-color: var(--bs-supporting-color-3);
+}
+
+
+
+.hero-section {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    padding: 10rem 0;
+
+
+}
+
+
+
+
+
+.hero-video--scetion {
+
+    height: auto;
+    width: 100%;
+    border-radius: 5rem;
+
+
+}
