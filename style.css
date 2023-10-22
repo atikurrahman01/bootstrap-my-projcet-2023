@@ -92,6 +92,11 @@ li {
 
 }
 
+.common-section {
+    padding: 0 0 9rem 0;
+    margin-top: 5rem;
+}
+
 
 
 /* ///////////////////////////////////////////////////////////////////////////////////hero section ///////////////////////*/
@@ -213,4 +218,44 @@ li {
     justify-content: space-evenly;
     gap: 1rem;
 
+}
+
+/*////////////////////////////////////////////////////////////////////////card img carusul///////////////////////// */
+.card-cs-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel .card {
+    background-color: #262631;
+    color: var(--bs-main-color);
+    transition: all 0.3s linear;
+}
+
+
+.carousel-inner .card p {
+    color: var(--bs-main-color);
+}
+
+.carousel-inner .card h5 {
+    color: var(--bs-main-color);
+}
+
+.carousel-inner .card:hover {
+    color: var(--bs-dark-primary);
+    background-color: var(--bs-main-color);
+}
+
+.carousel-inner .card :hover p {
+    color: var(--bs-dark-primary);
+
+}
+
+.carousel-inner .card :hover h5 {
+    color: var(--bs-dark-primary);
+
+}
+
+.caruosel-indicators {
+    bottom: -20%;
 }
