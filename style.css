@@ -38,6 +38,7 @@ h2 {
     line-height: 3rem;
     font-weight: 600;
     font-size: 2.8rem;
+
 }
 
 
@@ -73,6 +74,22 @@ li {
     height: 50px;
     width: 50px;
     border-radius: 1rem;
+}
+
+.common-heading {
+    font-size: 2.8rem;
+
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+}
+
+.common-title {
+    margin-bottom: 4.2rem;
+}
+
+.common-color {
+    color: var(--bs-main-color);
+
 }
 
 
@@ -142,4 +159,58 @@ li {
     .shapedividers_com-3905::before {
         background-size: 100% calc(2vw + 137px);
     }
+}
+
+/* ///////////////////////////////////////////////////////////////////hero section end //////////////////////////////////*/
+
+
+/*//////////////////////////////////////////////////////////////////////// services section start///////////////////////// */
+
+
+
+.services-section {
+    padding: 6rem 0 3rem 0;
+}
+
+.icon-span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #1089ff;
+    color: var(--bs-main-color);
+}
+
+
+.card-box:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////// services section end///////////////////////// */
+
+
+/*//////////////////////////////////////////////////////////////////////// Digital product section///////////////////////// */
+
+.dps-main {
+    margin-top: 5rem;
+    height: auto;
+
+}
+
+.container-dps {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.9)), url(/images/seo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 5rem 0;
+    overflow: hidden;
+
+}
+
+.GNS-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+
 }
